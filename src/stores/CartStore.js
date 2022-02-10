@@ -2,6 +2,7 @@ import { defineStore, acceptHMRUpdate } from "pinia";
 import { groupBy } from "lodash";
 import { useAuthUserStore } from "@/stores/AuthUserStore";
 export const useCartStore = defineStore("CartStore", {
+  historyEnabled: true,
   state: () => {
     return {
       items: [],
