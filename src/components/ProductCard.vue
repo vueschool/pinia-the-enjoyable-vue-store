@@ -13,10 +13,12 @@ defineEmits(["addToCart"])
 
 // data
 const count = ref(0);
+const imgRoot =
+  'https://raw.githubusercontent.com/vueschool/pinia-the-enjoyable-vue-store/main/public/images/';
 </script>
 <template>
   <li class="card">
-    <img :src="`/images/${product.image}`" class="mb-3" width="300" />
+    <img :src="`${imgRoot}/${product.image}`" class="mb-3" width="300" />
     <div>
       {{ product.name }} - <span class="text-green-500">${{product.price}}</span>
       <div class="text-center m-4">
