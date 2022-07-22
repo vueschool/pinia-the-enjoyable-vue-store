@@ -1,6 +1,6 @@
 # Pinia, The Enjoyable Vue Store 
 
-[![](https://vueschool.io/media/bc6229f7525d1df7f87bd22604eaa468/Pinia_not-transparent.png)](https://vueschool.io/courses/pinia-the-enjoyable-vue-store)
+[![Course cover image](https://vueschool.io/media/39ebc760d644aa4625743dfc727ff737/pinia-the-enjoyable-vue-store.jpg)](https://vueschool.io/courses/pinia-the-enjoyable-vue-store)
 
 This repository contains the source code for [Pinia, The Enjoyable Vue Store](https://vueschool.io/courses/pinia-the-enjoyable-vue-store) course.
 
